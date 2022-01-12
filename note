@@ -161,6 +161,17 @@ CHAPTER 1
 				* combination = permutation/r! =n!/(n-r)!r!
 				* addational theorem = P(A or B) = P(A) + P(B)
 				* expected value
+			* statistics
+				* frequency distribution
+				* Representative value
+					* Average = total / no
+					* mode    = most frequence value
+					* medium  = middle value
+					* Range   = largest - smallest
+				* Dispersion
+					* variance 		= sum([list of (value-average)^2])/no 
+					* standard deviation 	= squareRoot(variance)
+
 
 			
 	
