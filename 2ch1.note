@@ -172,7 +172,10 @@ CHAPTER 1
 					* variance 		= sum([list of (value-average)^2])/no 
 					* standard deviation 	= squareRoot(variance)
 
-
-			
+			* correlation
+				* scatter diagram
+				* correlation analysis
+				* Regrassion analysis 
+					*slope y= ax+b
 	
 
