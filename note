@@ -1,3 +1,4 @@
+CHAPTER 1
 	• corporate activities and legal affairs
 		○ corporate activities
 			§ purpose of corporate activities
@@ -100,8 +101,67 @@
 					* retained earning =
 
 			* other financial statements
-				* cash flow
-				
+				* cash flow statements
+					*cash flow management
+				 	*cash management
+				*share holder equity statement
+				*consolated financial statement
+				*appropriation statement
+				*Annual security report
+		* management accounting
+			* business analysis
+			* financial indecitor
+				* income indecitor
+				* return on equity(ROE) = net profit /equity capital
+				* return on assets(ROA) = net profit /Total asserts
+
+			* profitability
+				* return on investment(ROI) = profit/ investment amount
+			* safety indecitor
+				* equity to total assets = equity capital/total capital
+				* current ratio          = current assets/ current liabilities
+			* break even point analysis
+				* profit planning
+				*Direct cost accounting
+					* fixed cost
+					* fixed cost ratio =fixed cost/sales 
+					* variable cost
+					* variable cost ratio = variable cost/sales
+
+				* marginal profit
+					* marginal profit = sales - variable cost
+					* marginal profit ratio = marginal profit/sales
+				* break even pint sales
+					* fixed cost /(1- variable cost ratio)
+ 
+	* management Science
+		* appiled mathematics
+			* set
+				* venn diagrams
+				* intersection set (And)(product set)
+				* union set (or) ()
+				* difference set (not set)
+				* complement set (U - set)
+				* Demorgan's law
+					not A or B = not A and not B
+					not (A and B) = not A or not B
+				* subset
+				* Proposition
+					* propositional logic
+						* Implication
+						* Reverse
+					* inference
+						* deduction inference
+						* inductive inference
+			* probability
+				* mathematical probability = no of possible event / no of whole event
+				* permutation = n * (n-1) * ..... (n-r+1)
+					      = n!/(n-r)!
+
+				* combination = permutation/r! =n!/(n-r)!r!
+				* addational theorem = P(A or B) = P(A) + P(B)
+				* expected value
+
 			
 	
 
