@@ -1,0 +1,181 @@
+CHAPTER 1
+	• corporate activities and legal affairs
+		○ corporate activities
+			§ purpose of corporate activities
+			§ CSR
+				□ green IT
+				□ CI (corporate Identity) (corporate brand)
+				□ corporate government
+					® disclosure
+					® IR(investor relationship)
+				□ going concern
+					® BCP(business continuity plan)
+		○ corporate organiazation structure
+			§ corporate form
+				□ public entities
+				□ private entities
+					® limited partnership
+				□ stock company
+					® stock holders meetings
+					® board of directors
+					® auditor
+				□ mixed enterprise
+			§ corporate hierarchy structure
+			§  management organization
+				□ hierarchical organization
+				□ functional organization
+					
+				□ line and staff organization
+				□ project organization
+				□ matrix organization
+				□ divisional organization
+					® in house company system
+					® inhouse venture organization
+		
+		○ Business Management
+			§ ojt(ON job training)
+			§ off jt(off job training)
+			§ case study 
+			§ Role playing
+			§ Debate
+			§ in-basket
+			§ elearning
+			§ competency
+			§ CDP(Career Development Plan)
+			§ Work life balance
+			§ mental health
+			§ MBO(Management by objective)
+			§ work sharing
+			§ discretionary labour system 
+	• corporate accounting
+	 	*financial accounting
+			* machenism of closing account
+			* Financial statement
+				*Balance sheet
+				 	* asset
+						* current assert
+						* fixed assert
+						* deferred assert
+					* liabilities
+						* current liabilities
+						* fixed liabilities
+						* reserves
+					* net assets  [total assets - liabilities]
+						* capital
+						* legal reserves
+						* remainder
+				
+
+				* depreciation
+					*Straight line method
+						* depreciation cost= (aquisition cost - slavage cost)/number of years of usefullife
+				 	* fixed rate method
+						* depreciation cost = current cost of assert * depreciation
+
+				* lease contract
+				* inventory valuation
+					* first in first out method
+					* periodic average method
+					* moving average method
+						inventory unit price =(inventory amount + purchased amount)/(inventory quantity + purchased quantity)
+					*last in first out method
+			
+				* income statement(P/L)
+					*cost
+					*profit
+					*loss
+					*cost of sales = beginning of period inventory+current 	period of goods parchased - end period of inventory
+					*sales
+					*cost of sales
+					* gross profit = (sales - cost of sales)
+					*selling general and admerstration expense 
+					* operating profit = grossprofit - selling general and 	admerstration expense
+					* non operating income
+					* non operating expense
+					* current profit = operating profit + non operating income - non-operating expense
+					* extra ordinary profit=
+					* extra ordinary loss= 
+					* Net profit before tax for current period = current profit + extra ordinary profit - extra ordinary loss
+					* corporate tax
+					* net profit current period = Net profit before tax for current period − Corporate tax and other taxes
+					* retained earning =
+
+			* other financial statements
+				* cash flow statements
+					*cash flow management
+				 	*cash management
+				*share holder equity statement
+				*consolated financial statement
+				*appropriation statement
+				*Annual security report
+		* management accounting
+			* business analysis
+			* financial indecitor
+				* income indecitor
+				* return on equity(ROE) = net profit /equity capital
+				* return on assets(ROA) = net profit /Total asserts
+
+			* profitability
+				* return on investment(ROI) = profit/ investment amount
+			* safety indecitor
+				* equity to total assets = equity capital/total capital
+				* current ratio          = current assets/ current liabilities
+			* break even point analysis
+				* profit planning
+				*Direct cost accounting
+					* fixed cost
+					* fixed cost ratio =fixed cost/sales 
+					* variable cost
+					* variable cost ratio = variable cost/sales
+
+				* marginal profit
+					* marginal profit = sales - variable cost
+					* marginal profit ratio = marginal profit/sales
+				* break even pint sales
+					* fixed cost /(1- variable cost ratio)
+ 
+	* management Science
+		* appiled mathematics
+			* set
+				* venn diagrams
+				* intersection set (And)(product set)
+				* union set (or) ()
+				* difference set (not set)
+				* complement set (U - set)
+				* Demorgan's law
+					not A or B = not A and not B
+					not (A and B) = not A or not B
+				* subset
+				* Proposition
+					* propositional logic
+						* Implication
+						* Reverse
+					* inference
+						* deduction inference
+						* inductive inference
+			* probability
+				* mathematical probability = no of possible event / no of whole event
+				* permutation = n * (n-1) * ..... (n-r+1)
+					      = n!/(n-r)!
+
+				* combination = permutation/r! =n!/(n-r)!r!
+				* addational theorem = P(A or B) = P(A) + P(B)
+				* expected value
+			* statistics
+				* frequency distribution
+				* Representative value
+					* Average = total / no
+					* mode    = most frequence value
+					* medium  = middle value
+					* Range   = largest - smallest
+				* Dispersion
+					* variance 		= sum([list of (value-average)^2])/no 
+					* standard deviation 	= squareRoot(variance)
+
+			* correlation
+				* scatter diagram
+				* correlation analysis
+				* Regrassion analysis 
+					*slope y= ax+b
+	
+

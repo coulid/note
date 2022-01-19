@@ -1,0 +1,125 @@
+Network
+	* LAN 
+	* WAN
+
+	* Wired network (LAN/WAN)
+		* leased line
+		* public telephone network
+		* PLC (Power line communication)
+	* wireless network(LAN/WAN)
+
+Sensor network
+	* network that use in home applications
+	eg : thermal ,cooker 
+
+
+* ISP : internet service provider
+	* Billing systems of ISP 	
+		* metered rate system
+		* flat rate system 
+		* two part tariff system 
+	* quality of ISP
+		* LineSpeed/line capacity
+			* bps = amount of data / transfer time
+		* effective line speed
+			* bps * line utilization rate%
+
+		* capacity planning 
+			* decide  the line speed to use
+				* eg : if 5 device use 100 bps at a time so we will need 500< line .
+
+		* bit error rate 
+			* rate of bit error occurs 
+		* traffic density / lost call rate
+			* earlang =total usage time / unit time
+	
+
+
+** Basic technique of network *******************************293 
+
+
+sychronization method
+	* timing at the transmitting side and receiving side
+	* there are 3 sychronization methods
+		* start stop sychronization method
+			* start bit 1 bit and stop bit 1 or 2 bits are appended into transfer data
+		* SYN sychronization method (Character sychronization method)
+			* sychronization character (SYN code: 00010110) are appended before a block of data
+		
+		* Flag sychronization method
+			* flag byte : 011111110 is appended before and after of the data
+		
+
+
+Error control method
+	* controlling bit errors that occurs on communication channel
+	* coding mehod is use
+	* 2 type of coding 
+		* source coding 
+			* huffman coding    	
+				= assign the short code to the data 
+				= send the data with coding table
+				= reciever encode the data using coding table
+			
+			* run length coding
+				= send the data using some math
+				eg: data("AAA") = run length coding(3*"A")
+
+		* channel coding
+			* detect error and correct error by appending redndant bits in data
+			* Error detection method
+				* parity check
+					* 0 or 1 is appended in 7 bit data so that 1 become odd number or even number
+					* vertical parity
+					* horizontal parity
+					* horizontal vertical parity
+		
+				* check sum
+					* by appending the total value of data at the end
+					
+					
+***************************** CRC
+					* 
+			* error correction method 
+********************************* Hamming code
+		
+
+Switching method
+	* determine how to transmit data from one company from another
+	* circuit switching method
+	* store and forwared switching method
+		* Packet switching
+			* transmit the data by packets and the order no is appended in each packets as header
+		* frame delay
+			* Packet switching method that ommit the error checking method
+		* cell relay/ATM switching
+			* Asynchronous transfer mode
+			* fixed range of data
+
+
+
+transmittion method
+	* serial transmittion
+	* parallel transmittion
+
+
+communication methods 
+	* simplex communication 
+	* duplex communication
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			 

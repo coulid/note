@@ -1,0 +1,129 @@
+Service Management
+	process of control the
+		* service provider's activities
+		* resources
+		* transition
+
+IT service management
+	* process of controlling the IT based services
+
+SLA	
+	* Service level agreement
+	SLR	
+		* Service level requirement
+		
+	* SLA identified the following things
+		* Establishment 
+		* scope
+		* review and change
+		* Service to be delivered 	: explanation of service to be delivered
+		* delivery time			
+		* organization			: elxplanation of various notification such as communication , inquiry , priority
+		* contract detail		: emergency contract method when the falt occurs
+		* security		
+		* Terget and evoluation		: evoluation of service level
+		* charging			: billing method for service
+		* Scope of relibility		: explanation of matters that are excluted from the scope of responsibility
+
+Service management standards
+	* ISO IEC 20000-1 include the require ments of a service
+	* ISO IEC 20000-2 include the application of service management system
+
+	PCDA is use in ISO/IEC 20000 family 
+		* PLAN 		: plan for the target system
+		* DO 		: implement the target system
+		* CHECK 	: monitering and reviewing
+		* ACT		: do improvement 
+
+ITSMS certification system
+	* IT service management system certification system
+	* have 4 steps 
+		* gap analysis 
+			* service provider measure the gap between current status and requirement 
+		* establishment of service management
+			* Make the service management team
+		* implementation of service management plan
+			* service provider implement the service management plan
+		* implementation of service management process
+
+
+ITIL
+	* Information technology infrastructure library
+	* A guide book that systematically summerize the best practices for efficiently manage the IT services
+	* A defacto standard
+	* ITIL V2
+		* service support
+			* day to day process of service 
+			* 5 process
+				* service desk
+				* incident management
+				* problam management
+				* configuration management
+				* change management
+				* Release management
+
+		* service delivery
+			* long term operations
+			* 5 process
+				* service level management 
+				* IT service financial management
+				* capacity management
+				* Avability management
+				* IT service continuity management
+	* ITIL V3
+		* service strategy			: goals to achieves
+		* service design			: design the service
+		* service transistion			: provide the new service or modify existing service
+		* service operation			
+		* continual service improvement		: improve the service
+
+
+
+Method of service managements
+	* service design and transistion
+		- preparing plan for new service 
+		- changing the existing service
+		- designing and developing the service and transisting the live environment
+
+		*3 steps
+			* plan a new changed service
+			* design and development of the new changed service
+			* Transition of new change service
+		
+
+* plan a new changed service
+	* service provider identify the customer's requirement and plan the requirements that fullfill the customer's requirement
+		* authority and responbility for new changed service
+		* Activities to perform with the service provider and other related parties
+		* communication with interested parties
+		* human technical information and financial resources
+		* timescales for planned activities
+		* manage the risks
+		* testing require for new changed service
+		* service acceptence criteria
+
+* design and development of new changed service
+	* functional requriement ,non functional requirement ,services 
+		* authority and responbility for new changed service
+		* authority to perform with related parties
+		* Human technical information and financial resources
+		* new changed technology
+		* plan and policies for new changed service
+		* update the service
+* transistion of new changed service
+	* execute acceptance test and optional test are performed upon the developed service
+	* if the tests are successful the service is transfer to the operating environment
+	* 3 types of transistions
+		* parallel transistion
+		* phased transistion
+		* big bang transistion
+
+
+* service management process
+	* 4 process
+	* service delivery process
+	* relation ship process
+	* Resolution process
+	* control process
+
+*	
