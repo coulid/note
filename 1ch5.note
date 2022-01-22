@@ -104,21 +104,143 @@ transmittion method
 
 
 communication methods 
-	* simplex communication 
-	* duplex communication
+	* simplex communication  
+		* one way communication
+	* half duplex communication
+		* can transmit and recieve from both side but cannot do parallel
+	* full duplex communication
+		* can transmit and recieve data from both side in parallel
+
+connection mehtod
+	* point to point method (P2P)
+		* pc <======================> pc
+	* Multi point method
+		* branching device is used
+		* pc <===+=============+============+===========> pc
+			 pc            pc           pc
+ 	* line concentration method
+		* line concentrator is used
+		*          pc
+			    +	
+			/   |   \
+		       pc   pc  pc
+
+
+
+
+multiplexing 
+	* sharing one line with multiple computer
+	* combining the different siginal from multiple computer in one line
+		* FDM (frequency division multiplexing)
+			* use in analog line
+		* TDM (Time division multiplexing)
+			* equal time for all lines
+			* use in digital line
+
+		* WDM (wavelength division multiplexing)
+			* use in optical fiber communications
+
+		* CDM (Code division multiplexing)
+			* use in mobile communications
+			* eg: CDMA 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+transmittion control
+	* control the data transmittion to efficiently and accurately send and recieve data
+		* line control
+			* control connect or disconnect the line
+		* Synchronous control
+			* control speed different between sender and reciever
+		* Error control
+			* detect and correct the error
+		* DataLink control
+			* establish the datalink
+		* Routing control
+			* sending data from shortest part
+
+Basic procedure
+	* sychronization (watch line : 40)
+		* transmission control characters 
 	
+			* 1	SOH	start of header
+			* 2	STX	start of text 
+			* 3	ETX	end of text
+			* 4	EOT	end of transmittion
+			* 5	ENQ	enquirty
+			* 6	ACK	acknowledgment
+			* 10	DLE 	Data Link escape
+			* 15	NAK	negative acknowledgement
+			* 16	SYN	synchronization character
+			* 17	ETB	end of transmittion block
+
+	* error control methods
 
 
+		
+
+establishing Datalink
+ 	* contention 
+		* P2P method
+		* net1             net2
+		 (ENQ)------------>  |	 
+		   |   <------------ (ACK) or (NAK) 		
+	* Polling/selection
+		* multipoint method
+		* control pc send polling or selectionmessage to each point to check requested  data or recieve data 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+HDLC (High level datalink control)
+	* perform when the data is send by unit of frames
+		* sychronous control
+			* F | A | C | I | FCS | F
+			f	=Flag
+			A	=Address
+			c	=control
+			I	=information	
+			FCS	=frame check frequence
+	
+			* type of frames
+			I = use to transmit information 
+			S = use to control the data link
+			U = use to report the error status 
+					
+		* Error control
+				
+	
+			
+
+establishing data link
+	* balanced data link
+		* contention method
+			* ABM (asynchronous balanced mode)
+				*  can send(  commnad or respond frame )without permission
+	* unbalanced data link
+		* pooling /selection method
+			* NHM (normal response mode)
+				* frame can send only with permission
+			* ARM (Asynchronous response mode)
+				*  can send(  commnad or respond frame )without permission
+				*  command = address of recieve station
+				*  respond = address of transmittion station
 
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-
-
-
-
-
-
+communication services
+	* service provided by communication service provider
+		* public service 
+			* ASDL (Asymmetric Digital subscriber line)
+				* UP link is smaller than down link
+			* DDX (Digital data exchange)
+			* ISDN (integrated service digital service network)
+				*
+			* FTTH (fiber to the home)
+			* mobile communication
+			* satellite communication
+				* use for connect overseas
+		* Leased line service
+			* 
 
 
 
