@@ -1,0 +1,62 @@
+software license
+	* free software 
+		* free to use
+	* packet software
+		* 
+	* share ware
+		* free for interval of time
+		* fee must be paid after interval of time
+	* PDS(public domain software)
+		* can use free
+
+	* OSS(open source software)
+		* free for all
+		* BSD (Berkeley software distribution)
+			* FreeBSD	= for intel processors
+			* NetBSD	= for netowks
+			* OpenBSD	= Network with well developed security
+		
+		* IRIX
+			* silicon graphics
+			* unit based os
+			* system V
+
+		* WEB server configuraton using OSS
+			* LAMP = linux + Apache + Mysql      +	PHP
+			* LAPP = linux + Apache + PostrgeSql + 	PHP
+
+copyright
+	* reproduction redistribution modication and other activities are restricted 
+copyleft
+	* reproduction redistribution modication and other activities are not restricted 
+
+
+
+dual license
+	* another license + copy right
+	* GPL	
+	* MPL
+	* BSDL
+	* Apache
+	
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+OS 
+	* Manage the resources of computer
+	* Realibility
+	* usability
+
+os do
+	* job management
+		*
+	* tesk management
+	* memory management
+	* data management
+	* input /output management
+	* Network management
+	* operation management
+	* user management
+	* security management
+	* fault management
+
+

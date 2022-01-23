@@ -1,0 +1,26 @@
+Application layer 
+	application protrocols = Http ,smtp,pop3,Imap4
+
+presentation layers
+	coding the application data
+	encrypt and decrypt and compression
+
+
+session layer
+	establish or terminate the connection 
+
+transport layer
+	chank the data from session layer and
+	assemble the chanks with TCP headers
+
+network layer
+	IP headers are added into transport layer data
+
+Datalink layer
+	Mac address are appended to data
+	FCS is added to end of the data
+
+physical layer
+	translate the data into another formats
+	frequency to optical ect.....
+
