@@ -1,0 +1,82 @@
+There are 365 languages in the world.
+
+
+	* word boundries 
+		determine the end and start of the word
+
+	* Tokenization
+		split words phases and idioms
+
+	* stemming 
+		map to the root word
+
+	* tf-ids
+		frequency of word in document
+
+	* systemantic analysis
+		compare the word phases and idioms in set of documents to extract meaning
+
+	* disambiguation
+		determine the meaning of the words
+
+	* topic models
+		discover topics in a collection of document
+
+
+
+flow of text mining
+	* text preprocessing
+		examines unstructured text by searching out important words and find ing relationships between them
+	
+	* text transformation attribute  generation 
+		labels the text documents under one or more categories based on input output examples
+	* Attribute selection
+		grup document that have simular content
+
+	* visulization 
+	* summerization	
+		summerize the length of the documents
+
+
+
+
+NLTK
+	* from nltk.corpus import brown 
+		* different genders
+	* from nltk import tokenize
+		* suppprt tokenizers functions
+	* Ngrams
+		* eg: arr( this is a book)
+	* STOP WORDS
+		* from nltk.corpus import stopwords
+	* stemming 
+		reducing words to root word
+		eg:
+			going 	--->stem--> go
+			finished--->stem--> finish
+		* stemmers in nltk lib
+			* PorterStemmer 
+			* LancasterStemmer
+			* SnowballStemmer
+	
+	* limmatization
+		* from nltk.stem import WordNetLimmatizer
+	
+	* pos Tagging
+		* to calarify the type of given word in 8 part of speech
+		* from nltk import pos_tag
+	* NER	
+		* name entity reconization
+		* extract names from sentences
+
+
+
+
+NLP Work FLOW
+	tokenization
+	stop words removel
+	stemming and lemmatization
+	Pos_tagging
+	extract information 
+
+

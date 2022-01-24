@@ -1,0 +1,37 @@
+tree structure
+	* Hierarchical structure
+	* note 
+		all individual elements
+	* root
+		highest level note
+	* leaf
+		last note
+	* branch
+		line that connect to each note
+	* level
+		depth of tree sturcture
+
+	* depth of a note
+		length of the part from note  to its root
+	* height of a tree
+		longest part of the leaf
+
+
+
+
+					1
+			   /			\2
+			2			3
+		/		\	 /	|1	\
+		4		5 	6	7	8
+	/	
+	9
+	
+			
+			root note		=1
+			leaf notes		=(9,5,6,7,8)
+			notes			=(1,2,3,4,5,6,7,8,9)
+			depth of note 7	 	=2
+			height of a tree 	=3
+	
+		
