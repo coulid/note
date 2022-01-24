@@ -1,0 +1,23 @@
+Databases
+
+
+various databases
+	* distributed database
+		* to prevent 
+			* over crowded 
+			* difficult to manage
+		* RDA(remote database access)
+			* transparency of distributed database
+			* user can access database without concerning which database they were accessing
+		* consisty control methods of distributed databases
+			* two phase commitment
+				* 1st phase 
+					* check for database update access
+				* 2nd phase
+					* if ACK :
+						update
+					if NAK:
+						no update
+			* replication
+				* copy the original data base as distributed database
+				* update the original database by regular interval
