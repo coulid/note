@@ -78,9 +78,55 @@ Error control method
 					* by appending the total value of data at the end
 					
 					
-***************************** CRC
-					* 
-			* error correction method 
+				* CRC
+					* method of transmittion data as polynomial
+					* polymonial of transmittion data is divided by predetermined polymonial
+					* no of 0 are appended to the data that is one less than predetermined divisor
+					* if the remainder is 0 there is no errors
+					* if the remainder is not 0 the remainder is error
+						if there is an error append the remainder to the original word
+					
+
+
+					* if the given data is not "binary" like this
+						
+						x^7 +   + x^5 +   +   + x^2 + x +1
+						1     0    1    0   0    1    1   1
+
+					eg:
+					word			= 1101101<+++++++
+					predetermined divisor	= 10101 	+	
+										+
+							 11110111		+APPEND THE REMAINDER TO THE WORD DATA
+							_________________	+
+						10101	|11011010000		+	 			
+							|10101			+
+							------------		+
+							  11100			+
+							  10101			+
+							------------		+
+							   10011		+
+							   10101		+
+							------------		+
+							     1100		+
+							     0000		+
+							-------------		+
+							     11000		+
+							     10101		+
+							-------------		+
+							      11010		+
+							      10101		+
+							 -----------		+
+							       11110            +          
+							       10101		+
+							--------------		+
+								1011   <<-----there is an error because of the remainder is not0
+						
+					* how to generate CRC
+						* 
+
+
+			* error correction method 		
 ********************************* Hamming code
 		
 
@@ -222,7 +268,7 @@ establishing data link
 				*  can send(  commnad or respond frame )without permission
 				*  command = address of recieve station
 				*  respond = address of transmittion station
-
+			
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -240,8 +286,136 @@ communication services
 			* satellite communication
 				* use for connect overseas
 		* Leased line service
+			* catv
+			* wide area ehernet
+			* ip VPN
+		* other communication services
+			* VAN
+			* PIAFS
+			* EDI
+			* Ip telephone
+			* ubiquitous network
+
+
+network architecture
+	
+	* logical structure and operating principles of the networks
+	* protrocols 
+		* the standards between two networks to implement communication
+		eg: voltage level ,signal ,method of transmission and format of data
+	
+	* network architecture is systematic collection of protrocols to simplify the construction of the network
+
+
+OSI 
+	* open systeminter connection
+	* international standard network architecture
+	* Osi model have 7 layers
+		* application
+			* communicate to application programs
+ 
+		* presentation
 			* 
+		* session 
+			*
+		* transport
+
+		* network 
+		* datalink
+		* physical
+
 
 
 
 			 
+TCP/IP protocol
+
+	* application layer
+		* the prototcols of application layer
+			* DNS
+			* DHCP	
+				* dynamically assigned ip address
+			* SMTP	
+			* POP
+				* download email from mail server
+			* IMAP
+				* retreves email from mail server
+			* MIME 
+				* handle audio video data for email
+			* HTTP
+			* FTP
+			* SNMP
+			* TELENET
+				* login from remote terminal
+			* NTP
+				* sychronize the time
+			* NNTP
+			* RTP
+				* transfer video audio 
+			* BOOTP
+			* SOAP
+
+
+	* transport layer
+		* TCP
+			* high realibility connection 
+		* UDP
+			* high speed low realibility connection
+
+	* internet layer
+		* routing 
+		* IP	- use Ip for transfer data
+		* RIP	- use to select communication path
+		* ARP	- acquire a MAC address from IP address
+		* RARP	- acquire IP address from MAC address
+		* ICMP	- give notification for communication erros 
+	
+
+	* Datalink layer
+		* provide error free data connection
+		* PPP	- use the telephone line to connect the network
+		* PPOE  - use dial-up ehternet connection from network
+	
+
+
+
+
+
+
+LAN
+	* merits of lan
+		* free to use but expence for construct
+		* high speed data transmittion can be acheve
+	
+
+	* wired lan
+		* use IEE802.3 standard / ethernet standard
+			*  n Base m
+				n 	- speed of transmittion
+				m	- type of cable
+						* 2: coaxial cable 185m
+						* 5: coaxial cable 500m
+						* T: Twisted pair cable
+						* F: fiber optic cable
+
+	* wireless lan
+		* use IEE802.11 a/b/g/n standare
+
+
+network topology
+	* star
+	* ring
+	* bus
+		* terminator
+		* transceiver
+	* Tree
+
+
+MAC 
+	* media access control
+	* detect the error
+	* MAC address 
+		* address of lancard
+
+CDMA/CD
+	*

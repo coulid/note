@@ -21,3 +21,21 @@ various databases
 			* replication
 				* copy the original data base as distributed database
 				* update the original database by regular interval
+
+
+
+Data warehouse
+	* implement to extract the information that is need for business analysis
+	* OLAP	= online analystical processing
+	* OLTP	= online transaction processing
+		
+	* ETL	
+		* extract 
+		* transform 
+		* load
+
+	* Data cleaning
+		* removing duplication
+		* removing inconsistency
+	
+ 
