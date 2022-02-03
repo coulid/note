@@ -129,12 +129,15 @@ Error control method
 			* error correction method 		
 				* Hamming code
 					* generate by make odd value
-						* p1= d3 + d5 + d7
-						* p2= d3 + d6 + d7
-						* p3= d5 + d6 + d7
-					* detect error by change the p1 p2 p3 into decimal
+						* p1= check 1 skip 1
+						* p2= check 2 skip 2
+						* p4= check 4 skip 4
+					* detect error by is there any odd in p1,p2,p4
+					* if there odd add the place values of P;
 						* eg: 
-							0 0 1=1
+							
+							if p1 ,p4 have errors add place values
+							1+4=5
 							
 			
 
