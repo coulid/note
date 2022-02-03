@@ -31,7 +31,7 @@ Sensor network
 		* bit error rate 
 			* rate of bit error occurs 
 		* traffic density / lost call rate
-			* earlang =total usage time / unit time
+			* earlang =total usage time / unit time 
 	
 
 
@@ -127,8 +127,16 @@ Error control method
 
 
 			* error correction method 		
-********************************* Hamming code
-		
+				* Hamming code
+					* generate by make odd value
+						* p1= d3 + d5 + d7
+						* p2= d3 + d6 + d7
+						* p3= d5 + d6 + d7
+					* detect error by change the p1 p2 p3 into decimal
+						* eg: 
+							0 0 1=1
+							
+			
 
 Switching method
 	* determine how to transmit data from one company from another
@@ -276,11 +284,10 @@ establishing data link
 communication services
 	* service provided by communication service provider
 		* public service 
-			* ASDL (Asymmetric Digital subscriber line)
+			* ADSL (Asymmetric Digital subscriber line)
 				* UP link is smaller than down link
 			* DDX (Digital data exchange)
 			* ISDN (integrated service digital service network)
-				*
 			* FTTH (fiber to the home)
 			* mobile communication
 			* satellite communication
@@ -337,20 +344,26 @@ TCP/IP protocol
 				* dynamically assigned ip address
 			* SMTP	
 			* POP
+				* Post office Protocol
 				* download email from mail server
 			* IMAP
+				* Internet mail access protocol
 				* retreves email from mail server
 			* MIME 
+				* multipurpose internet mail extension
 				* handle audio video data for email
 			* HTTP
 			* FTP
 			* SNMP
+				* simple network management protrocol
 			* TELENET
 				* login from remote terminal
 			* NTP
 				* sychronize the time
 			* NNTP
+				* Network new transfer protrocol
 			* RTP
+				* real time transfer protrocol
 				* transfer video audio 
 			* BOOTP
 			* SOAP
@@ -418,4 +431,184 @@ MAC
 		* address of lancard
 
 CDMA/CD
-	*
+	* carrer sense multiple access with Collection detection system
+	* use in Lan
+
+
+Token/passing
+	* token = transmittion right
+
+TDMA
+	* time division multiplexing
+	* data transmittion is perform in regular interval
+
+client/server relation
+	* client request server for data
+	* and server send the data
+
+peer to peer relation
+	* all device can send and recieve data and requests
+
+Network devices
+	* repeter
+		* use to extend the network
+		* physical layer
+	* bridge
+		* use to concentrate the network
+		* datalink layer
+	* Router
+		* use to route the data between devices
+		* network layer
+	* gateway
+		* use to connect the other three layers (eg: Application layer)
+		* use in transport layer
+
+
+
+FDDI
+	* fiber distributed data interface
+
+
+ATM LAN
+	* aschronous data transfer mode
+
+
+
+
+
+
+
+Internet	
+	* connect the len to world
+	
+
+	* TCP/IP is used 
+
+	* application layer
+		* data 
+	* transport layer
+		*  		tcp header
+		{source port | destination port | squence number} | data
+		
+		* sequence number =order number of packet
+	
+	*  internet layer
+		*  Ip header 
+			* protocol number 
+			* source Ip 
+			* desinition IP
+		* IP header+Tcp header+data
+
+	* Datalink layer
+		* ethernet header
+			* source mac address
+			* Destination mac address
+		* ethernet header + IP header + TCP header + data
+						
+
+	
+
+*IP address
+	* address address + host address 
+	* network classes
+		* A : 0		: 0   - 126
+		* B : 10	: 126 - 192
+		* C : 1110	: 192 - 225
+		* D : use only in multicast
+
+	* subnet
+		* devide the network into several network address
+		* use to chank the network into pieces
+
+	* CIDR
+		* class inter domain routing
+		* describing the network part of ip address with prefix  /x. x=num of network bits 
+		* VLSM 
+			* variable length subnet mask
+* Global Ip Address
+	* A unique iP for device
+	* NAT
+		* network address translation
+	* NAPT
+		* Network address port transistion
+
+
+
+* DNS
+	* Domain name server
+* URL
+	* uniform resources locater
+
+* DHPC
+	* dynamic host configuration protocol
+
+* RIP
+	* routing information protocol
+	* send data from shortest part
+
+* Netowrk
+	* internet
+		* globe network
+	* router 	
+		* connect to internet
+	* firewall
+		* protect the safety of network
+	* DMZ
+		* Demilitrized zone
+		* avoid the direct connection with outside network
+		* DNS
+			* Domain name server
+		* proxy server
+			*  a bridge between you and the rest of the internt
+	* DHCP
+		* dynamic host configuration protrocol
+		* provide the dynamic IP address
+
+	* Radious
+		* Remote authorization dial user service
+	* Ras
+		* remote access service server
+
+
+* internet services
+	* E-mail
+		* email is sent to mail server and redirect to the client
+		* transfer side   = SMTP is use
+		* Recieveing side = POP3 is use
+	* WWW
+		* World wide web
+		* HTTP protocol is use
+		* URL is use to allocate the ip address of the web
+		* CGI
+			* common gateway interface
+			* cloud computing
+		* SSI
+			* Server side include
+		* COOKIE
+			* save the user information in client device
+		* WEB bacon
+		
+		* RSS	
+			* RDS site summary
+			* notify the updates of webpages to user
+	* Search Engine
+		* String type searching
+		* directory type searching
+		* Robot type searching
+			* collect the data from internet auto made by computer
+	* FTP server
+		* File transfer protrocol server
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+

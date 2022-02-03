@@ -1,0 +1,72 @@
+JLabel();
+	* getText()
+	* setText()
+	* setHorizontalAlignment(int)
+	* getIcon()
+	* getHorizontalAlignment()
+
+
+
+JTestField();
+	* addActionListener(ActionListener)
+	* getAction()
+	* setFont(Font)
+	* removeActionListener(ActionListener)
+	* setEditable(bool);
+JTextArea();
+	* setRows(no of rows)
+	* setColumns(no of cols)
+	* setFont(Font)
+	* insert(String,position)
+	* append(String)
+
+
+
+
+
+
+
+
+void actionPerformed(ActionEvent e){
+	e.getSource();
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+JButton();
+	
+	* setBounds();
+	* setText();
+	* getText();
+	* setEnabled(bool);
+	* setIcon(new ImageIcon(path to image));
+	* getIcon();
+	* setMnemonic(int );
+	* addActionListener(new ActionListener(){
+		public void actionPerformed(ActionEvent e)
+		{
+			///some action
+		}
+		
+		});
+	
+
+JFrame();
+	* add();
+	* setSize();
+	* setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	* setLayout();
+	* setVisible();
+
+
+

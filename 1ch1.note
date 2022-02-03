@@ -1,0 +1,143 @@
+History of computers
+	* 1st gen
+		* Enic
+		* vacuum tube
+	* 2nd gen
+		* Univac 1
+		* transistors
+	* 3rd gen
+		* Integrated circuit 
+	* 3.5th gen
+		* LSI 
+		* large scale integration
+		* super computers	
+	* 4th gen
+		* vLSI
+		* very large scale integration
+		* pc
+	* 5th gen
+		* low power comsumption computers
+
+
+Five unit of computers
+	* input unit 
+	* output unit
+	* storage unit
+	* Arithemetic logical unit
+	* control unit
+	
+
+main memory
+	* volatility characteristics
+
+
+Auxiliary storage device
+	* static 
+
+
+CPU
+	* Control unit + Arithmetic logic unit
+	
+Data Representation in computers
+	* unit 
+		* bit	= 0/1
+		* 1 byte= 8 bit 
+		* word	= 16 bit /32 bit /64 bit
+	* information amount = 2** (no of bit)
+
+Data types
+	* character
+		* character codes
+			* ASCII
+				* 8 bit character code
+				* 7 bit is use for represent character
+				* 1 bit is use for error check
+				* only support english language
+
+			* ISO
+				* simular to ASCII code
+				* support all character in world
+			* JIS
+				* Japanese industrial standards
+				* JIS 8 bit
+					* can represent 8 bit character
+				* JIS kanji
+					* use 16 bit
+				* shift JIS
+			
+			* EBCDIC
+				* extended binary coded decimal interchangeable code
+				* 8 bit character code
+			* unicode
+				* 16 bit character code
+				* support all language in the world
+			* EUC
+				* extended unix code
+			
+			* Zonded decimal numbers
+				
+			
+	* numeric data
+		* binary numbers
+		* decimal numbers
+			* BCD binary coded decimal code
+			* each digit is represented by 4 bit binary number
+			* eg: 	2	7	4	1
+				0010	0111	0100	0001
+			
+			* zonded decimal number / unpacked decimal number
+				* represent 1 digit of decimal number with 1 byte
+				* cannot use in calculations
+				* zone bit are stored in higher 4 bit 
+					* zone bit = 1111
+				* binary coded decimal code are are stored in higher 4 bit
+				* sign bit are store in the first four bit of last byte			
+					* + =1100
+					* - =1101
+				*eg: 	 +672=
+					      6		 7 	    +	2
+					1111 0110  1111 01111      1100	0010
+
+
+		* packed decimal number
+			* 2 digit of decimal number with 1 byte
+			* can use in calculations
+			* sign bits are stored in last 4 bit
+			* eg:	-1905
+				0	1	9	0	5	-
+				0000	0001	1001	0000	0101	1101
+
+
+		* binary notation
+			* fixed point number
+				* iiii.ffff
+				* integer part and floating point part have fixed byte
+				
+			* sign bit notation
+				* use to describe fixed point number with signbit
+				* s= sign bit
+				* 0= +
+				* 1= -
+				* eg: -89 = 1 1011001
+			* complement notation
+				* use to describe the sign of the fixed point number
+				* 1 complement	
+					* substract 8 bit from  111111111
+				* 2 complement
+					* substract 8 bit from 1000000000 
+					* use in binary addition
+
+			* floating point number
+				* sign bit * mantissa * redix** expontent
+					0  *  0.11    * 10**100
+			
+
+
+
+	* error 
+		* difference between actual value and value represented in computer
+		* rounding error
+		* loss of trailing digits
+			* 
+			
+			
