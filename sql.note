@@ -1,0 +1,25 @@
+desc = show table from
+del the primary key = Alter table drop  primary key
+
+insert into ___table name____ values(+++values++++);
+select * from ____table name___ where  ___column name_____ +compare+ ____something____
+eg :
+	select * from table where no <100;
+
+regex
+	%  : select * from table where name like "%k".
+		""" end with k."""
+	_ : select * from table where name like "__k".
+		"""three characters before k"""
+
+
+	is null ,is not null
+
+Ordered by DESC : select * from table ordered by column_name desc;
+	   ASC 	:                                            ASC
+
+
+update  table set column where condition;
+delete  /  /   /         /            / ;
+
+	

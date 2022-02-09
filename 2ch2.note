@@ -1,0 +1,75 @@
+business system
+	* colliective term of information system that are use in business
+
+in house operation systems
+	* book keeping
+	* accounting
+	* financial system
+	* human resources
+	* playroll system
+	* Sales support system
+	+++++++++++++++++++++++
+	* operation specific packages can use for these systems
+	* XBRL
+		* Extensible business Reporting language 
+		* use to describe financial statements of companies
+		* based on XML
+	* Groupware
+		* Softwares that help people from remote location While working together.
+		* eg: 	net Meeting
+			Excel
+	
+	* WorkFlow system
+		* automate rotune process
+	* Video Conference System
+		* apps like google meet
+
+Mission critica business support system
+	* collective term for mission-critical business systems forming the center of corporate activities
+	
+	* operation specific packages
+		* software packages that support common bussiness operations
+		* eg:	sales management system
+			inventory control system
+			etc
+	* industry specific packages
+		* software packages that support only only one business 
+		* eg:	distribution information system
+			financial information system
+			etc
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	* eg of mission critica bussiness systems 
+		* POS
+			* point of sales
+		* EOS
+			* electronic ordering system
+		* Electronic banking system
+		* Electronic medical records system
+			* EHR
+				* electronic health record
+			* PHR
+				* personal health record
+
+adminstration system
+	* E-gov system
+	* Basic resident register network system
+	* GPKI
+		* government public key infrastructure
+	* LGWAN
+		* Local Government wide area network
+	* EDINET
+		* Electronic disclosure for investors NetWork
+
+Public information system
+	* GPS
+		* global positioning system
+	* ETC
+		* Electronic toll collection system
+	* AMEDAS
+		* automated meterological data acquisition system
+		* weather information
+	* Smart grid 
+		* A type of cabling techniques for electric power
+
+
+

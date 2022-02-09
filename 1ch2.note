@@ -1,0 +1,289 @@
+non interactive processing 
+	* the processing that the user cannot intervene the processing
+
+interactive processing
+	* the processing that the user is the part of processing
+	* most of the interactive processing systems use gui
+
+_______________________________________________________________________________________________________________________
+batch processing system
+	* A type of processing that computer collect the data for process and  perform processing in scheduled time
+	* use in periodic tasks
+	* eg: salary
+
+	* center batch processing
+		* the data needs for processing are accumulated in site
+		* open batch processing
+			* user perform all tasks from input to operation
+		* closed batch processing
+			* computer perform all tasks from input to operation
+		* cafeteria method
+			* user perform input and computer perform operation
+	
+	*  remote batch processing
+		* job are transmitted from remote station the central computer process and retransmit the data to station
+		* transation processing
+			* ACID characteristics
+			* atomicity
+				* All are executed or None are Executed
+			* consistency
+			* Isolation
+				* transistion do not interfere from another
+			* Durability
+				* recorded result will continue to maintain even after fault occurs
+	
+Real time processing
+	* A type of processing that computer process immediately when the processing is required.
+
+	* Hard Real time System
+		* Systems that can cause damage if the system fail to process.
+		* eg: Car air bag control system
+
+	* Soft Real time System
+		* System that can cause loss if the system process in response time
+		* eg: seat reservation system
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+
+	* Real time control processing system
+		* interact with computer and human sinquntially and process the information obtained by a set of sensors
+		* eg : AirPlane towers
+	 
+	* OLTP(on-line transaction processing system)
+		* system that send the remotely generated processing requests to the central computer and process
+		* have ACID characteristics
+		* use often in ATM
+	* Time sharing system
+		* processing time for each user as minutes and process srequentely for each users
+
+_______________________________________________________________________________________________________________________________
+
+
+Centralized processing system 
+	* data and resources are process in centralized computer
+	* easy to install
+	* computer performance should be high
+	* Realibility of the system is low
+	* easy to implement the security 	
+
+distributed processing systems
+	* System that process the information by share the work to all connected devices in networks
+	* Difficult to install
+	* Realibility of system is high
+	* Difficult to implement security
+	++++++++++++++++++++++++++++++++++++++++++++++++
+		
+	* load distribution
+	* Function Distributino
+	
+	++++++++++++++++++++++++++++++++++++++++++++++++++
+	* horizontal distributed system
+		* all connected devices have equal position
+		* P2P 	
+			* Shared resources within the network must be managed
+			* not suitable for large systems
+			
+	* vertical distribution System
+		* hierarchical distribution system
+		* Client server system
+			* client request the processing and server provide the processing
+			* print server
+			* file server / database server
+			* communication server
+				* server that manage the different types of networks
+			* proxy server
+				* gateway between client and rest of the internet
+
+		* threee tier client server system
+			* server
+				* database access layer
+				* function layer
+			* client	
+				* presentation layer
+		+++++++++++++++++++++++++++++++++++++++++++++++
+			* stored procedure function
+				* this is the system that stored the most used commands and data into server.
+			* Group commitment function
+				* several writing operation are perform in sychronous manner.
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		* thin Client system
+			* use application and data from server
+			* eg : Microsoft 360, kami
+		* Flat client
+			* All application and data are retained in client side
+		* Rich client
+			* Download the application at the client side
+		++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	* WEB system
+		* A thin client system
+	
+	* Cloud computing
+		* can use and manipulate the computer resources from internet.
+		* eg: Amazon cloud , Google cloud
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		* SaaS (software as a service)
+			* Allow the users to connect and use the cloud base app over internet.
+			* eg : Microsoft 365
+		* PaaS (Platform as a service)
+			* Service that provide the virtual platform for running application
+		* Iaas (infrastructure as a service)
+			* provide the  Storage and network.
+		* DaaS(Desktop as a service)
+			* provide the virtual desktop environment.
+
+	* Backup site
+		* Hot site
+			* a backup can perform while user can access the database.
+		* cold site
+			* a backup only perform while user is offline.
+		* warm site
+			* a backup is done in regular interval
+
+* Parallel Processing system
+	* increase the processing speed by distributed processing
+	* multi processor system
+		* Several processers are loaded on board 
+	* cluster
+		* Sevrial computer connected as one Super computer
+	* grid computing
+		* like the cluster but computer are connected over networks
+	* HPC (High performance computing)
+		* A large skill parallel processing
+		* eg : calculate the human DNA
+
+_______________________________________________________________________________________________________________________________
+
+* configuration of high realibility System
+	* Series System
+		* Backup System is not prepare for system
+		* low cost low realibility
+		* one device failure can stop the entire system
+		++++++++++++++++++++++++++++++++++++++++++++
+		* Simplex system
+			* devices are connected in series
+			* {CCU}+>{Processing unit}+>{Auxiliary storage device}
+				* communication control unit
+		* tandem System
+			* processors are connected in series
+			* {FEP} +> {processor} +> {BEP} +> {Auxiliary StorageDevices}
+				* FEP(font end processor)
+					* mainly perform CCU functions
+				* BEP(Back end processor)
+					* Mainly perform DataBase management
+		
+	
+	* Parallel System
+		* Backup System is prepared
+		* High cost high realibility system
+		* one device fail cannot stop the system
+		+++++++++++++++++++++++++++++++++++++++++++++
+		* Duplex System
+			* primary system and secondary system are installed
+			* if the fault occurs in primary system Switch unit swith to the secondary system and continue perform
+			
+			*		    /-	ccu	processor 	Auxiliary Storage device
+			* 	Switch unit:
+			* 			ccu	processor	Auxiliary Storage device
+	  	
+		++++++++++++++++++++++++++++++++++++++++++++++
+		* cold Standby method
+			* Secondary system is turned off util the fault occurs in primary system
+			* setup time must be wait
+		
+		* warm Standby mehtod
+			* Secondary system run in background of primary system and update the state of data
+			
+		* hot standby system 
+			* primary system and secondary system are running the same process in parallel
+
+		* Dual 
+			* use two system in parallel and if the the fault occurs change into secondary system
+			* high cost and most realibility system
+		
+					+ {ccu}+{processing unit}+{auxiliary storage device}
+			[switching unit] 
+					+ {ccu}+{processing unit}+{auxiliary storage device}
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	* MultiPlexing system
+		* a type of parallel system
+		* fault tolerant system
+			* can retain the neccessary functions of over system even if the fault occurs
+			* hardware base implementation
+				* computer 
+				* hard disk configuration
+
+				* avability = MTBF/(MTBF+MTTR)
+				* avability =(total operating time -fault time )/total operating time
+
+			* software base implementation
+				* multiple same software are running in parallel in an computer
+	
+		* Multiprocessors system
+			* many processors are performing the prallel processing for the single purpose
+			* AMDAHL's Law 
+				* processing time of 1 processor T1 = {serial program%} + {parallel program%} = 1
+				* processing time of m processor Tm = {{serial program%} + {Parallel Program%}}/m 
+				* speed up = 1/Tm
+		
+		* Tightly coupled multiprocessor system
+			* multiple processors are Controlled by same os
+			* share main memory
+			* (timing)sychronization between tasks nedds
+
+					 os
+				   /            \
+				cpu		cpu
+				   \            /
+				    main memory
+
+		* Loosely coupled multiprocesser system
+			* processors are controlled by individual os
+			* use individual main memory
+				
+
+				os             	os
+				|		|
+				cpu            cpu
+				|		|
+				main----------main
+				memory        memory
+
+		++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		* poly processor system
+			* ?
+		* load sharing system
+			* tasks are distributed.
+
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	pg 136 RAID
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+Evoluate the processing power
+	* Turnaround time
+		* total time of start of the processing to output
+		* cpu processing time + input output time + over head time
+	* Response time
+		* total time of processing request to output
+		* cpu processing time + over head time
+
+Throughput
+	* performance indicator for amount of work
+	* TPS 
+		* transistion per second
+	* TPS= 1 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+		

@@ -4,15 +4,16 @@ JLabel();
 	* setHorizontalAlignment(int)
 	* getIcon()
 	* getHorizontalAlignment()
+	* JLabel.CENTER
 
 
-
-JTestField();
+JTextField();
 	* addActionListener(ActionListener)
 	* getAction()
 	* setFont(Font)
 	* removeActionListener(ActionListener)
 	* setEditable(bool);
+
 JTextArea();
 	* setRows(no of rows)
 	* setColumns(no of cols)
@@ -21,9 +22,21 @@ JTextArea();
 	* append(String)
 
 
+JPasswordField(int for columns);
+	* columns is optional
+	
 
 
 
+JCheckBox(bool,Action);
+	* getAccessableContext();
+	* paramString();
+	* addItemListener(
+		new ItemListener(){
+			public void itemStateChanged(ItemEvent e){
+	
+		
+		}});
 
 
 
