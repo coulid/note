@@ -72,4 +72,48 @@ Public information system
 		* A type of cabling techniques for electric power
 
 
+production management
+	* management of production plan
+		* what to be produce
+		* when 
+		* what quantity
+		* what production systems will be use
+	* production systems		
+		* build to order 
+			* order recieve +++++> produce
 
+		* build to stock 
+			* stock to fill +++++> produce
+		
+		* continuous 
+			* same product is produce for period of time
+		* individual
+			* individual order ++++> produce
+		* lot production system
+			* produce with unit of lots
+		* cell 
+			* individual product is produce from cell of workers
+		* Line
+			* one workers do only one process in a staff
+		* JIT
+			* produce require quantity in only required time
+		* process 
+			* manifacture by mean of chemical reaction
+
+
+
+production process
+	* to organize the production line by production plan
+	* to perform automatic and to perform manually are calarify
+	
+	* automatic production management
+		* NC machine tool
+			* numerical control
+			* machine tool that control the processing by basic of numeric value
+		* Automatic monitoring equipment
+			* moniter the operation status and production status of industry
+		* Automated guided vehicle
+			* unmanned transport vehicles for raw materials transportation
+		* Automated warehouse
+			* unmanned transport vehicles for warehouse
+	 
