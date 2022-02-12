@@ -1,0 +1,186 @@
+information security
+	* Purpose
+		* to preserve the 
+			* confidentiality 
+			* integity
+			* Avability
+			* authenticity
+			* Accountability
+			* Non-repudiation
+			* Realibiality 
+
+	* 3 management objects
+		* assert
+			* Tangible assert
+			* Intangiable assert
+	
+		* threads
+			* types of threads
+			= personal threads
+				* information leakage 	: leak the information to third party for paymant / accendentally
+				* theft/loss/damage 	: devices are stolen or destoryed
+				* Error/incorrect operation 
+				* social engineering 	
+					* trashing 
+					* spoofing
+					* peeping / sholdering hacking
+				
+				* cracking 		
+				* Targetted attack 	: attack by targeting the one person of the company
+
+			= Technological threads
+				* DOS attack 		: Denial of service		
+				* Key logger		: record the keyboard input of targeted computer and attack
+				* clickjacking		: like ads from *** sites
+				* phishing		 
+				* cache poisoning	: change the cache and lead the user to fake website
+				* Ip spoofing		: change the ip and lead the user to fake website
+				* XSS(cross site scripting)	: target the week security web of company as stepping stone 
+				* CSRF(cross site request forgery)	: trap are installed in site for targeted user
+				* session hijacking	
+				* directory traversal	
+				* Drive by download	: force user to download the prepared program without permission while searching browser
+				* SQL Injection		
+				* Side Channel attack	: attack by measuring the hardware current or something
+				* Zero day attack	: attack while the programmers fixing the errors of program
+				* Password cracking
+					* dictionary attack
+					* brute force attack	: use every combination of characters
+				* thirdparty relay		: use freely usable server to send virus programs to computer
+								: eg Email
+				* Gumblar			: redirect the wrong website with virus program
+				* Buffer overflow		: attack the memory to overflow
+				
+				* Malwares
+					* computer virus
+						* boot sector virus
+						* Program file virus
+						* Interperter virus
+					
+					* Worm
+						* spread through from network such as email attachment files
+					* Bot
+						* to control the infected computer form remote location
+					* spyWare
+						* send back the information of infected user's computer to creator
+					* Trojan horse
+					 	* Pretents to be a useful program but can cause damage to users
+
+			= Physical threads
+				* Desisters
+					* natural things such as flood or fire
+				* Destruction
+					* destructed by third party
+				* Accident /failure
+				* unauthorize intrusion
+		* volunerability
+			* weakness of an information system
+				* security hole			: cause by bugs
+				* man made volunerability	
+	
+			
+	* 4 management function 
+		* preventation function
+		* Detection function
+		* Minimization function
+		* Restoration function
+
+	
+OECD
+	* organization for economic coorporation and development
+	* guideline for security of information system and networks
+		* awareness
+		* Responbility
+		* Response
+		* Ethics
+		* Democracy
+		* Risk accessment
+		* Security design and implementation
+		* Security management
+		* Re accessment 
+
+
+
+
+cryptography
+	* means encryption techniques
+	* termonology that pretain the data encryption
+		* plain text
+		* cipher text
+			* encrypted data
+		* encryption
+		* decryption
+		* encryption / decryption key
+		* key length
+		* Decoding
+			* obtaining the plain text form crypher text by improper ways
+		* encryption algorithms
+		* encryption strength
+
+	* common key cryptography	
+		* 	sender							reciever
+		*  encrypt (plain text , common key)    =========> 	decrypt(crypher tect , common key)
+
+	* public key cryptography	
+	 	* use pair of private key and public key
+		* 		sender 						reciever
+
+		* 		public key            	<===========     generate public key and private key
+			encrypt(plain text , public key) ===========>	 decrypt(crypher text , private key)
+	
+	* session key cryptography
+		* use public key cryptography to send the common key
+		* message are encrypt with common key
+
+
+user Authentication techiniques
+	* User id/passwords
+	* IC cards
+	* OTP
+		* one time password
+	 	* challange response authentication
+			* send challange code and password by client to server 
+		* challange code : a random character streams that is generate by server
+		* Time sychronous authentication
+	* biometric authentication method
+		* face authentication
+		* Iris authentication
+		* voice authentication
+		* Palm authentication
+		* Vein authentication
+		* Fingerprint authentication
+	
+jf;lasjkdf;laskjdf;laksjdf;kjsad;flkasdjfasdfma;sdlkfj;laksdjf;lkjasd;flkjasd;flkjads
+
+
+
+
+
+Information security management
+	* Information security policy	: concept concening information security
+		* Fundamental information security policy
+			* calarify the assert
+		* Information security measure criteria
+	* Information security measure implementation
+		* implementation of information security measure
+		* contingency plan : plan for emergency situation
+
+Rules and regulation of information security 
+	* Rules and regulation concerning employment agreement
+	* Office rule and regulation
+	* Security control rule and regulation
+	* Documentation control rule and regulation
+	* Information management rule and regulation
+	* Privacy Policies (personal information prodection policies)
+	* Rule and regulation measure against the infection of virus
+	* Security education rules and regulation
+	* Penal rules and regulation
+	* Outward explanation rules and regulation
+	* Rules and regulation for updating rules
+
+
+
+
+
+
+
