@@ -150,7 +150,6 @@ user Authentication techiniques
 		* Vein authentication
 		* Fingerprint authentication
 	
-jf;lasjkdf;laskjdf;laksjdf;kjsad;flkasdjfasdfma;sdlkfj;laksdjf;lkjasd;flkjasd;flkjads
 
 
 
@@ -181,6 +180,111 @@ Rules and regulation of information security
 
 
 
+ISMS 
+	* information security management system
+	* Use PCDA 
+		* plan
+		* do
+		* check
+		* act
+	
 
 
+
+
+
+
+
+
+
+
+
+Information security measure
+	* The only need to know information will known by stake holders
+	* Human security measure
+		* screening the employee
+		* non disclosure agreement
+		* information security education training
+		* heandling information security
+		* Disciplinary process for security branch
+		* handling of information system
+		* accounting management
+	
+	* technical security measure
+		* anticracking measure
+			* measure against unauthorized access
+			* measure against the information leakage
+		* Measure against malware
+		* measure against computer virus
+		* measure against spam
+			* Black list
+			* white list
+			* SPF 
+				* Sender policy framework
+			* Measure against the mail header injection
+		* content filtering
+			* URL filtering
+		* Honey pot
+			* server to invitage the unauthorized inturction
+		* Digital watermarking
+		* PDA securiy
+			* personal digital assistance asecurity
+				* eg : tablet , laptops , mobile devices
+	
+
+	* Physical security measure
+		* Zoning
+			* setting the security areas to against the natural disasters
+
+		* Entrance and exist control
+		* Disposition
+			* delete the information from disposited hardrives
+
+* security implementation technology
+	* Secure protocols
+		* IPsec 
+			* security architecture for internet protrocol
+		* SSL
+			* Secure socket layers
+			* S/MIME
+			* HTTPS
+			* FTPS
+			* SMTP
+			* POP3
+
+		* ssl accelarator 
+			* device that reduce the server load for encryption data
+		* SSH 
+			* secure shell
+		* SET 
+			* secure electronic transistion
+	* Authentication protrocols
+		* SMTP-AUTH
+		* DNS SEC
+			* Dns security extensions
+		* EAP
+			* PEAP 
+				* protected EAP
+
+
+* network security
+	* Firewall
+		* packet Filtering
+		* Application gateway
+	* IDS
+		* intruction detection system
+		* Host based IDS
+		* Network based IDS
+	
+	* Call back
+		* eg g-code
+* wireless lan security
+	* ANY connection refusal function
+	* Mac address filtering function
+	* Stealth function
+		* This is a function that conceals ESSIDs by stopping the beacon signals emitted regularly from access points. 
+
+		 
+		
+		
 
