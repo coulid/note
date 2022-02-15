@@ -440,6 +440,7 @@ CDMA/CD
 
 Token/passing
 	* token = transmittion right
+	* can transmit the data who won the token
 
 TDMA
 	* time division multiplexing
