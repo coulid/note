@@ -7,4 +7,122 @@ Informatoin system strategy
 
 * procedure to create the information system strategy
 	* comfirmation of business strategy
-	* 
+	* Servey and analysis of business environment
+	* Servey and analysis of Business information system information technology
+	* Creatation of basic strategy
+	* Creation of new image of Business operations
+	* Selection of scope and creation of investment objectives
+	* Creation of proposals for information system strategy
+	* Approval of information system strategy
+
+
+
+Total computerization planning
+	* Total optomization policy
+		* direction of business and system
+		* 6 policies by METI(ministry of trade and indestry)
+			* Policies of It government should be calarify
+			* principles concening decisions on the investment and initiaviaties of computerization should be defined
+			* The optimization purpose of the overall information system should be set on the basis of business strategies. 
+			* the clear vision of information system for overall organization should be determined
+				* EA (enterprize architecture)
+					* enable the user to calarify the nessary element for system installation
+					* easy to understand for user
+					* over all busness operation are divided into four
+						* BA (Business architecture)
+							* shows
+								* standardization 
+								* detail of business
+								* implementation bodies 
+								* work flow
+							* use
+								* Business Description
+								* Diamond mandla matrix
+								* DFD
+								* work flow architecutre
+								* unify modeling architecture
+
+						* DA (Data architecutre)
+							* show 
+								* the detail of information 
+								* use ER diagrams
+						* AA (Application Architecture)
+							* Shows the form of most applicable processing system for business
+						* TA (Technology architecture)
+							* Show the technology element configuration of system
+							* use configuration diagram
+
+			* Policies on change which are made in organizational structure and business operation as a result of computerization should be clarified
+			* Policies on information security should be calarified
+		
+	* Total optomization plan
+		* over all long term plan for computerization planning
+		* System management standards
+			* create the optimization plan on the basic of policies and goals
+			* consider the complience in the over all optomizing plan
+			* clarify policies on it investment and neccessary resource in the entire optomizing plan
+			* clarify how to measure the return and risks of IT investment in overall optomizing plan
+			* clarify rules for system quality 
+			* clarify the pority of each development plan
+			* consider the use of external resources
+
+
+		* to plan the total optomization plan manager should have
+			* understanding of business environment
+			* Creation of business model
+			* Creation of information System frameworks
+			* Interview (information collection)
+			* Identification of Development issues for information system
+			* creation and documentation of medium and long term plan
+
+
+* ROI (return on investment)
+	* ROI = profit / investment
+
+
+* Implementation of information system stratagy
+	* Creation of computerization plan
+	* progra management
+		* to manage the program to adapt the execution environment
+	* framework
+		* created to achieves the goal
+		* ITIL
+		* COBIT
+		* SLCP
+
+	* quality control
+	* Information system implementation management
+		* moniter the implementation of information system
+			* monitering the indicators
+				* KGI	(Key goal indicators)
+				* KPI	(Key performance indicators)
+				* Response to risks
+
+
+
+Business process improvement
+	* find the object to improve
+	* find the problem
+	* Setting of improvement goal
+	* creation of improvement proposals
+	* evoluation of improvement proposals
+	* Implementation and confimation of effects
+
+
+Soluation business
+	* soluations for business problems
+	* Cloud computing 
+	* Service oriented architecture
+		* software that use service on network
+		* GPS
+	* Application service provider
+	* hosting service
+		* RENT A SERVER
+	* outsourcing service
+Information system planning
+	* SLCP from ch 4
+
+
+
+
+			

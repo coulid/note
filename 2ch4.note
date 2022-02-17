@@ -1,0 +1,80 @@
+SLCP
+	* System development process
+	* hardware implementation process
+	* software implementation process
+	* maintenance process
+	* Disposal process
+
+
+System Development process	
+********************************************************************************************************************************
+										7 acceptance support process
+									7 System installation 
+	7 System RD						7 qualitification
+	
+		7 System architectural design            7 Integration
+	
+			
+					7 implementation
+*******************************************************************************************************************************
+
+
+
+	* System RD
+	* System architectural design process
+	* Implementation
+	* Integration 
+	* qualitification
+	* System installation
+		* develop installation plan
+		* do the plan		
+	* acceptance support process
+		* customer test the system
+		* three tasks are performed
+			* support the customer's acceptance review and acceptance testing
+			* System delivery
+			* support for the education of customer
+				* teach how to use the system
+	
+
+
+
+
+Software implementation process							
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+											8 acceptance support 
+										8 installation 
+	8 Software RD							8 qualitification
+		8 Software architectural design 		8 integration
+			8 Software detailed design		
+						8 implementation
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+	* Software RD
+	* Software architectural design
+	* Software Detailed design
+	* implementation 
+	* integration
+	* qualitification
+	* installation
+		* Develop the installation plan
+		* do the plan
+	
+	* acceptance support
+		* support for customer acceptance review and acceptance testing
+		* Software delivery
+		* support for education of customers
+	
+
+
+
+
+Maintenance process
+	* modification and improvements are carry out
+	* Safety of system is maintain
+	* in maintanence process 5 steps are performed
+		* Prepare for initiationing the maintenance process
+	
+Disposal process

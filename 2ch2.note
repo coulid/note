@@ -108,12 +108,154 @@ production process
 	
 	* automatic production management
 		* NC machine tool
-			* numerical control
-			* machine tool that control the processing by basic of numeric value
+			* numerical control 
+			* machines like CNC or 3d printers
 		* Automatic monitoring equipment
 			* moniter the operation status and production status of industry
 		* Automated guided vehicle
 			* unmanned transport vehicles for raw materials transportation
 		* Automated warehouse
 			* unmanned transport vehicles for warehouse
+
+
+Production systems
+	* CIM
+		* computer Integrated manufacturing
+		* MIS
+			Management Information system
+	* FA
+		* Factory automation
+		* MRP 
+			* material equipment planning
+		* CRP
+			* Capacity Requestment planning
+		* CAE
+			* Computer Aided engineering
+		* CAD
+			* Computer aided design
 	 
+
+	* FMS
+		* Flexable manufacturing cells
+		* CAM 
+			* computer aided manufacturing
+		* CAT
+			* computer aided testing
+
+	* PDM
+		* Product data management
+		* manage the data of all process
+
+Ebusiness
+	* EC 
+		* Electronic commerce
+		* Advertising and payment service by using a network
+	* types of EC
+		* B To B : Business to Business
+		* B To C : business to customer
+		* C To C
+		* B To E : Business to Employee
+		* G To B : Government to Business
+		* G To C : 
+
+
+	* Electronic ordering system
+		* Online Shopping
+		* Electronic procurement system
+			* Eg electronic bidding
+		* Electronlic auction
+			* E bay
+	* Electronic payment system
+		* internet banking
+		* EFT : electronic funds transfer
+		* Electronic money
+		+++++++++++++++++++++
+EDI 
+	* Electronlic data interchange
+	* Data are exchange from internet B to B or some thing
+	
+Social media
+	* Social networking services
+		* facebook
+	* Electronic bolletin board
+	* Web blog
+	* Video sharing system
+	* chat apps
+	* CGM 
+		* customer generated media
+		* eg : tiktoe
+
+Embedded system
+	* small system that embedded home electronic application or indistrual electronic application
+	* Microprocessor
+	* Sensors
+		* optical
+		* Infrared
+		* Magnetic
+		* accleration
+		* Gyro
+		* Ultrasonic
+	* Actuator
+		* Convert D/A 
+		* electronic signal to movements
+	* Firmware
+	* System LSI
+		* main electronic of the circuit are integrated into one chip
+	* MEMS 
+		* micro electro machenical systems
+	* seven sigment led
+		* eg Digital watch LED display
+		* can show 7 bit of information
+
+
+Control systems
+	* Feedback control
+		* detect the feedback value of the output
+	* feedforward control
+		* measure the deviation between feedback value and desire value
+	* sequence control
+	* Multivarible control
+		* sevrial information items to be control in integrated manner
+	* fuzzy control
+	* PWM (pulse width control)
+		* control by changing the pulse according to input signal
+
+
+
+
+AV
+	* audio visual system
+	* devices that handle the video and music
+	* Streo
+	* Portable headphone studio
+		* Ipod ,Mp3
+	* Television
+	* video recorder
+
+House hold electric applicance
+	* the electronic devices that can control over network
+	* eg : electric rice cooker , electric bulb
+
+personal information equipment
+	* smart phone , smart watch etc
+
+education and entertament devices
+computer peripherals/OA equipments
+	* display ,mouse ,etc
+	* printers ,copy machines etc
+
+job oriented terminal devices
+	* POS terminal of a shop
+	* credit card reader
+
+Industrual devices
+	* job oriented devices used in compines
+	* communication equipments
+	* transportation equipment and construction equipments
+	* industral equipment FA equipment and processing devices
+	* equipment
+	* medical devices
+	* measuring instruments
+
+
+
